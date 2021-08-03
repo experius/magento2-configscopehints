@@ -160,7 +160,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
                     ];
                 }
                 if (isset($option['value'])) {
-                    $optionsByValue[$option['value']] = $option;
+                    @$optionsByValue[$option['value']] = $option;
                 }
             }
 
