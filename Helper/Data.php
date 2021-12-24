@@ -251,6 +251,11 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      */
     protected function getFormattedValueLabels(array $labels) {
         if(count($labels) == 1) {
+            if (is_array($labels[0])) {
+                return '<span class="override-value-hint-label">' .
+                        __('Please change scope to see store specific values') .
+                    '</span>';;
+            }
             //if only one value, simply return it
             return '<span class="override-value-hint-label">' .
                 nl2br($this->escaper->escapeHtml($labels[0])) .
