@@ -1,3 +1,31 @@
+## 4.1.9 (2023-11-01)
+
+[View Release](git@github.com:experius/magento2-configscopehints.git/commits/tag/4.1.9)
+
+*  [BUGFIX][IN23-255] Silencing errors is discouraged; found: @$optionsByValue[$option... AND display of array value's is broken due to faulty logic for human readable labels. *(Boris van Katwijk)*
+
+
+## 4.1.8 (2021-12-24)
+
+[View Release](git@github.com:experius/magento2-configscopehints.git/commits/tag/4.1.8)
+
+*  Add fallback for FieldArray labels *(Experius)*
+
+
+## 4.1.7 (2021-08-03)
+
+[View Release](git@github.com:experius/magento2-configscopehints.git/commits/tag/4.1.7)
+
+*  [BUGFIX] Solved issue in combination with Magmodules_Channable *(Mr. Lewis)*
+
+
+## 4.1.6 (2021-01-25)
+
+[View Release](git@github.com:experius/magento2-configscopehints.git/commits/tag/4.1.6)
+
+*  fixed error when is empty or no array *(mhaagen)*
+
+
 ## 4.1.5 (2020-10-28)
 
 [View Release](git@github.com:experius/magento2-configscopehints.git/commits/tag/4.1.5)
