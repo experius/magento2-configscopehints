@@ -164,7 +164,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
                         'label' => $option
                     ];
                 }
-                if (isset($option['value'])) {
+                if (isset($option['value']) && !is_array($option['value'])) {
                     $optionsByValue[$option['value']] = $option;
                 }
             }
